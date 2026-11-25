@@ -11,8 +11,26 @@ export default function About() {
       <section className="py-24"><Wrap className="grid items-start gap-12 lg:grid-cols-[5fr_6fr] lg:gap-24">
         <Reveal><Portrait className="aspect-[4/5] lg:sticky lg:top-28" /></Reveal>
         <Reveal><h2 className="mb-6 text-5xl sm:text-6xl">Hello, I’m Paul.</h2>
-          <p className="mb-4 max-w-[60ch] leading-8">Placeholder introduction. Paul’s own words go here, in src/pages/About.jsx. Awaiting Paul’s confirmation.</p>
-          <p className="mb-4 max-w-[60ch] leading-8">Paul currently works with iad UK, helping people buy, sell, invest in and let property.</p>
+          <p className="mb-4 max-w-[60ch] leading-8"> For over twenty years, property has been my work, my passion and my own investment. I've managed my own lettings portfolio throughout that time, building long-term tenancies and working across both private and social housing. That hands-on experience has taught me what landlords, tenants, buyers and sellers actually need.
+
+Over the years I've bought and sold more than £5 million of property, so I understand deals from the inside: the pressure, the paperwork and the opportunity. Today I bring that experience to clients as a property consultant with iad UK, helping people buy, sell, let and invest with honest advice and a personal service from start to finish.
+
+Outside work, I'm proud to chair a local ex-services charity. Giving back to the community matters to me, and it shapes how I treat people in business too.
+
+Whether you're moving home, selling, letting or building a portfolio, I'll make the process clear, straightforward and successful. I can also help with Energy Performance Certificates (EPCs) and private leases tailored to your needs.</p>
+          <p className="mb-4 max-w-[60ch] leading-8">I currently work with iad UK, helping people buy, sell, invest in and let property.</p>
+
+<a
+  href="https://www.iad.uk.com/staff/paul-langshaw"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-2 inline-flex items-center gap-2   px-7 py-3.5 text-sm font-semibold text-ivory transition duration-300 bg-bronze hover:bg-white hover:text-char hover:border border-bronze"
+>
+  View Paul on iad UK
+  <span aria-hidden="true">↗</span>
+</a>
+
+<h3 className="mb-4 mt-10 text-3xl">Experience across the market</h3>
           <h3 className="mb-4 mt-10 text-3xl">Experience across the market</h3>
           <ul className="grid max-w-md grid-cols-2 gap-x-6 gap-y-2 text-sm">{areas.map((a) => <li key={a} className="border-b border-bronze/40 py-2">{a}</li>)}</ul>
         </Reveal>
